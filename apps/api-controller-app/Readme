@@ -1,0 +1,2 @@
+http://{server}:{port}/swagger-ui/index.html#/ - swagger
+http://{server}:{port}/actuator/prometheus - prometheus

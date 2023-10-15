@@ -1,0 +1,17 @@
+server:
+  port: 8083
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,info,metric
+app:
+  igniteClient: /home/ponchick/datapool-param-service/support/configs/management-node.xml
+  mainDataRegion: datapool-persistence
+  jdbcLoaderThreads: 100
+jdbc:
+  url: jdbc:postgresql://localhost:5432/perfcona?currentSchema=profile
+  schema: profile
+  username: perfcona
+  password: perfcona
+  driver: org.postgresql.Driver

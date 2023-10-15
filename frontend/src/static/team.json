@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "ADMIN",
+    "READER",
+    "USER"
+  ],
+  "team": [
+    {
+      "id": "aa6eb28e-5d9a-4fd9-b37a-d440bf4a0f26",
+      "email": "ponchick@gmail.com",
+      "role": "ADMIN"
+    },
+    {
+      "id": "aa6eb28e-5d9a-4fd9-b37a-d440bf4a0f23",
+      "email": "ponchick1@gmail.com",
+      "role": "USER"
+    },
+    {
+      "id": "aa6eb28e-5d9a-4fd9-b37a-d440bf4a0f28",
+      "email": "ponchick2@gmail.com",
+      "role": "READER"
+    }
+  ]
+}

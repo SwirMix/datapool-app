@@ -1,0 +1,1 @@
+org.datapool.ant.SparkServer -cfg ./worker.json

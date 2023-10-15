@@ -1,0 +1,12 @@
+server:
+  port: 8084
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,info,metric
+app:
+  igniteClient: /home/ponchick/datapool-param-service/support/configs/datapool-node.xml
+  mainDataRegion: datapool-persistence
+  auth: true
+  secret: 1234567890

@@ -1,0 +1,40 @@
+{
+  "datapool": "http://192.168.0.8:8084",
+  "project": "711bff9d-a873-4497-873f-fbfceb220071",
+  "token": "002115f0-3b5c-42a4-8c39-586e84d8ef59",
+  "threads": 30,
+  "tasks": [
+    {
+      "name": "seats",
+      "output": "/home/ponchick/datapool-param-service/libs/clients/amber-ant-client/data/seats.csv",
+      "cache": "seats",
+      "batch": 1000,
+      "startId": 0,
+      "endId": 1339
+    },
+    {
+      "name": "bookings",
+      "output": "/home/ponchick/datapool-param-service/libs/clients/amber-ant-client/data/bookings.csv",
+      "cache": "bookings",
+      "batch": 1000,
+      "startId": 0,
+      "endId": 593433
+    },
+    {
+      "name": "routes",
+      "output": "/home/ponchick/datapool-param-service/libs/clients/amber-ant-client/data/routes.csv",
+      "cache": "routes",
+      "batch": 1000,
+      "startId": 0,
+      "endId": 710
+    },
+    {
+      "name": "airports",
+      "output": "/home/ponchick/datapool-param-service/libs/clients/amber-ant-client/data/airports.csv",
+      "cache": "airports",
+      "batch": 1000,
+      "startId": 0,
+      "endId": 104
+    }
+  ]
+}
