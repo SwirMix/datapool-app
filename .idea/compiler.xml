@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="datapool-app" />
+        <module name="csv-module" />
+        <module name="internal-dto-module" />
+        <module name="amber-ant-client" />
+        <module name="ignite-datapool-libs" />
+        <module name="jwt-token-library" />
+        <module name="cache-manager-client" />
+        <module name="victoria-metrics-client" />
+        <module name="cache-manager-app" />
+        <module name="api-controller-app" />
+        <module name="datapool-app-client" />
+        <module name="jdbc-datasource-module" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-controller-app" options="-parameters" />
+      <module name="cache-manager-app" options="-parameters" />
+      <module name="datapool-app" options="-parameters" />
+    </option>
+  </component>
+</project>
